@@ -1,5 +1,5 @@
 {
-  "name": "@t00nday/nestjs-mailer",
+  "name": "nestjs-mailer",
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
