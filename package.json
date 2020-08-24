@@ -78,5 +78,13 @@
     "*.ts": [
       "prettier --write"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toondaey/nestjs-mailer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toondaey/nestjs-mailer/issues"
+  },
+  "homepage": "https://github.com/toondaey/nestjs-mailer#readme"
 }
