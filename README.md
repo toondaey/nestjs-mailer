@@ -6,6 +6,14 @@ This is a mailer package built for nestjs leveraging the power of the observer p
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
+<p align='center'>
+    <a href="https://www.npmjs.com/package/@t00nday/nestjs-mailer" target='_blank'><img alt="npm" src="https://img.shields.io/npm/dm/@t00nday/nestjs-mailer" alt="NPM Downloads"></a>
+    <a href="https://coveralls.io/github/toondaey/nestjs-mailer" target="_blank" rel="noopener noreferrer"><img alt="Coveralls github" src="https://img.shields.io/coveralls/github/toondaey/nestjs-mailer"></a>
+    <a href="https://www.npmjs.com/package/@t00nday/nestjs-mailer" target="_blank" rel="noopener noreferrer"><img alt="npm version" src="https://img.shields.io/npm/v/@t00nday/nestjs-mailer"></a>
+    <a href="https://www.npmjs.com/package/@t00nday/nestjs-mailer" target="_blank" rel="noopener noreferrer"><img alt="LICENCE" src="https://img.shields.io/npm/l/@t00nday/nestjs-mailer"></a>
+    <a href="https://circleci.com/gh/toondaey/nestjs-mailer" target="_blank" rel="noopener noreferrer"><img alt="CircleCI build" src="https://img.shields.io/circleci/build/gh/toondaey/nestjs-mailer/master"></a>
+</p>
+
 <details>
 <summary><strong>Table of content</strong> (click to expand)</summary>
 
