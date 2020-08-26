@@ -28,7 +28,10 @@
     "nestjs email",
     "nestjs email templates",
     "nestjs nodemailer",
-    "nestjs-nodemailer"
+    "nestjs-nodemailer",
+    "ReactiveX",
+    "Observer pattern",
+    "Observables"
   ],
   "author": "B'Tunde Aromire",
   "license": "MIT",
