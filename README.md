@@ -31,11 +31,11 @@ This is a mailer package built for nestjs leveraging the power of the observer p
 
 Installation is as simple as running:
 
-`npm install @t00nday/nestjs-mailer`
+`npm install -s @t00nday/nestjs-mailer email-templates`
 
 or
 
-`yarn add @t00nday/nestjs-mailer`
+`yarn add @t00nday/nestjs-mailer email-templates`
 
 ## Usage
 
