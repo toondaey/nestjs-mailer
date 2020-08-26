@@ -1,7 +1,7 @@
 {
   "name": "@t00nday/nestjs-mailer",
-  "version": "1.1.1",
-  "description": "",
+  "version": "1.2.2",
+  "description": "A simple nestjs for mailing and mail templating.",
   "main": "index.js",
   "directories": {
     "lib": "lib",
