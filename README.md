@@ -207,7 +207,7 @@ Further documentation and understanding of the `email-templates` package can be 
 
 ## Contributing
 
-Please read the contribution's [guide](./Contributing.md).
+Please read the contribution's [guide](./CONTRIBUTING.md).
 
 [observable]: https://rxjs-dev.firebaseapp.com/guide/overview
 [email-templates]: https://www.npmjs.com/package/email-templates
