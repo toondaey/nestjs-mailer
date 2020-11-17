@@ -31,7 +31,10 @@
     "nestjs-nodemailer",
     "ReactiveX",
     "Observer pattern",
-    "Observables"
+    "Observables",
+    "nestjs mailer consolidate",
+    "nestjs mailer pug",
+    "nestjs mailer lodash"
   ],
   "author": "B'Tunde Aromire",
   "license": "MIT",
@@ -44,6 +47,7 @@
     "@nestjs/core": "7.5.3",
     "@nestjs/platform-express": "7.5.3",
     "@nestjs/testing": "7.5.3",
+    "@types/consolidate": "0.14.0",
     "@types/email-templates": "7.1.0",
     "@types/jest": "26.0.15",
     "@types/node": "13.9.4",
