@@ -31,11 +31,11 @@ This is a mailer package built for nestjs leveraging the power of the observer p
 
 Installation is as simple as running:
 
-`npm install @t00nday/nestjs-mailer`
+`npm install -s @t00nday/nestjs-mailer email-templates`
 
 or
 
-`yarn add @t00nday/nestjs-mailer`
+`yarn add @t00nday/nestjs-mailer email-templates`
 
 ## Usage
 
@@ -207,7 +207,7 @@ Further documentation and understanding of the `email-templates` package can be 
 
 ## Contributing
 
-Please read the contribution's [guide](./Contributing.md).
+Please read the contribution's [guide](./CONTRIBUTING.md).
 
 [observable]: https://rxjs-dev.firebaseapp.com/guide/overview
 [email-templates]: https://www.npmjs.com/package/email-templates

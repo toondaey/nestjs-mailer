@@ -1,15 +1,15 @@
 {
   "name": "@t00nday/nestjs-mailer",
-  "version": "1.2.2",
+  "version": "1.2.8",
   "description": "A simple nestjs for mailing and mail templating.",
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "test"
+    "tests": "tests"
   },
   "scripts": {
     "build": "rimraf -rf dist && tsc -p tsconfig.json",
-    "lint": "eslint 'lib/**/*.ts' --fix",
+    "lint": "eslint lib/**/*.ts --fix",
     "prepublish:npm": "npm run build",
     "publish:npm": "npm publish --access public",
     "prepublish:next": "npm run build",
@@ -18,7 +18,7 @@
     "test:integration": "jest --config ./tests/jest-e2e.json --runInBand",
     "test:cov": "jest --config ./tests/jest-e2e.json --runInBand --coverage",
     "prerelease": "npm run build",
-    "release": "release-it"
+    "release": "dotenv release-it --"
   },
   "keywords": [
     "nestjs-mailer",
@@ -28,43 +28,48 @@
     "nestjs email",
     "nestjs email templates",
     "nestjs nodemailer",
-    "nestjs-nodemailer"
+    "nestjs-nodemailer",
+    "ReactiveX",
+    "Observer pattern",
+    "Observables"
   ],
   "author": "B'Tunde Aromire",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
-    "@commitlint/prompt-cli": "8.3.5",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/prompt-cli": "11.0.0",
     "@compodoc/compodoc": "1.1.11",
-    "@nestjs/common": "7.0.9",
-    "@nestjs/core": "7.0.9",
-    "@nestjs/platform-express": "7.0.9",
-    "@nestjs/testing": "7.0.9",
+    "@nestjs/common": "7.5.3",
+    "@nestjs/core": "7.5.3",
+    "@nestjs/platform-express": "7.5.3",
+    "@nestjs/testing": "7.5.3",
     "@types/email-templates": "7.1.0",
-    "@types/jest": "25.1.1",
+    "@types/jest": "26.0.15",
     "@types/node": "13.9.4",
     "@types/rimraf": "3.0.0",
-    "@typescript-eslint/eslint-plugin": "2.30.0",
-    "@typescript-eslint/parser": "2.30.0",
-    "email-templates": "7.1.0",
-    "eslint": "6.8.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-import": "2.20.2",
-    "faker": "5.0.0",
-    "husky": "4.2.3",
-    "jest": "25.5.2",
-    "lint-staged": "10.2.1",
-    "prettier": "2.0.5",
+    "@typescript-eslint/eslint-plugin": "4.8.0",
+    "@typescript-eslint/parser": "4.8.0",
+    "dotenv-cli": "4.0.0",
+    "email-templates": "7.1.2",
+    "eslint": "7.13.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-import": "2.22.1",
+    "faker": "5.1.0",
+    "husky": "4.3.0",
+    "jest": "26.6.3",
+    "lint-staged": "10.5.1",
+    "prettier": "2.1.2",
     "reflect-metadata": "0.1.13",
-    "release-it": "13.5.7",
+    "release-it": "14.2.1",
     "rimraf": "3.0.2",
-    "rxjs": "6.5.5",
-    "ts-jest": "25.1.0",
-    "typescript": "3.8.3"
+    "rxjs": "6.6.3",
+    "ts-jest": "26.4.4",
+    "typescript": "4.0.5"
   },
   "peerDependencies": {
     "@nestjs/common": "^6.10.0 || ^7.0.0",
+    "email-templates": "7.1.2",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.0.0"
   },
@@ -86,5 +91,8 @@
   "bugs": {
     "url": "https://github.com/toondaey/nestjs-mailer/issues"
   },
-  "homepage": "https://github.com/toondaey/nestjs-mailer#readme"
+  "homepage": "https://github.com/toondaey/nestjs-mailer#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
