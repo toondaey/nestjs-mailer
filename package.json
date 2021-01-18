@@ -57,7 +57,7 @@
     "dotenv-cli": "4.0.0",
     "email-templates": "8.0.1",
     "eslint": "7.16.0",
-    "eslint-config-prettier": "7.1.0",
+    "eslint-config-prettier": "7.2.0",
     "eslint-plugin-import": "2.22.1",
     "faker": "5.1.0",
     "husky": "4.3.6",
